@@ -27,7 +27,7 @@ Every coin page shows an exit simulator, a graduation preview and a launch score
 
 **Trust**
 
-The hook was audited externally before mainnet and every finding fixed. Its upgrade authority is a Squads multisig (2 of 3), the platform's fee address is fixed in the program, and the launch lookup table is frozen.
+The hook was audited before mainnet by [saturn_bash](https://x.com/saturn_bash) ([lich.cx](https://lich.cx/)) and every finding fixed: [report and remediation](https://github.com/Lockdfun/lockd/tree/main/audit). Its upgrade authority is a Squads multisig (2 of 3), the platform's fee address is fixed in the program, and the launch lookup table is frozen.
 
 | | Mainnet |
 |---|---|
