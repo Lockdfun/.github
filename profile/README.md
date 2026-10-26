@@ -1,10 +1,9 @@
-<h1 align="center">lockd</h1>
-
-<p align="center"><b>Memecoin launches with rules that can't be broken.</b></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Lockdfun/.github/main/assets/lockd-banner.png" alt="lockd: memecoin launches with rules that can't be broken" width="100%"></p>
 
 <p align="center">
-  <a href="https://lockd-launch.vercel.app">App</a> ·
-  <a href="https://lockd-launch.vercel.app/#/docs">Docs</a>
+  <a href="https://lockd.trade">App</a> ·
+  <a href="https://lockd.trade/docs">Docs</a> ·
+  <a href="https://x.com/Lockdlabs">X</a>
 </p>
 
 ---
@@ -15,8 +14,8 @@ Lockd is a launchpad on Solana. Each coin's rules are written on chain at launch
 
 - **Early-buyer lock**: part of every early buy stays locked until a date, a traded volume or graduation.
 - **Max wallet** and **creator lock**, enforced by a Token-2022 transfer hook.
-- **Holder rewards** and **buyback & burn**, paid from trading fees with no custody: no wallet of ours ever holds them.
-- **Anti-sniper fee** and **creator vesting**, through Meteora.
+- **Holder rewards**, paid in SOL from trading fees with no custody: no wallet of ours ever holds them.
+- **Anti-sniper fee** and **creator fee**, through Meteora.
 
 **How it runs**
 
@@ -26,6 +25,15 @@ Coins launch on [Meteora's Dynamic Bonding Curve](https://www.meteora.ag/) and g
 
 Every coin page shows an exit simulator, a graduation preview and a launch score whose points all come from rules or on-chain reads.
 
+**Trust**
+
+The hook was audited externally before mainnet and every finding fixed. Its upgrade authority is a Squads multisig (2 of 3), the platform's fee address is fixed in the program, and the launch lookup table is frozen.
+
+| | Mainnet |
+|---|---|
+| Lock hook | [`LockoiXyf2fY5QGerQdoZxoThg3kyboG97cyiy12FDk`](https://explorer.solana.com/address/LockoiXyf2fY5QGerQdoZxoThg3kyboG97cyiy12FDk) |
+| Platform treasury (Squads vault) | [`FNVEukNM1MLoEEJMAEtSCePrKbba15crrCfaW2U91d6i`](https://explorer.solana.com/address/FNVEukNM1MLoEEJMAEtSCePrKbba15crrCfaW2U91d6i) |
+
 ---
 
-<p align="center"><sub>Devnet today. Mainnet after a security review.</sub></p>
+<p align="center"><sub>Live on Solana mainnet. Buyback &amp; burn and creator vesting are coming next.</sub></p>
